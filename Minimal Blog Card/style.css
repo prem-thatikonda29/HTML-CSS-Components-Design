@@ -18,7 +18,7 @@
 .card{
     background-color: #FFF;
     border-radius: 22px;
-    width: 350px;
+    width: 368px;
     height: 400px;
     margin: 20px 35%;
     box-shadow: 6px 10px 10px #E5EAF0;
@@ -28,20 +28,20 @@
     background-color: #E6D6FC;
     border-radius: 12px;
     margin: 15px;
-    height: 40%;
+    height: 152px;
     border-radius: 20px;
-    background-image: url("https://imgs.search.brave.com/8H0HkUr_XOhGgV15SZ-uJWpYa6_7RfLB3quu30aP2hE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jb3N0/YWZhcm1zLmNvbS9j/ZG4vc2hvcC9hcnRp/Y2xlcy9DYWN0dXMt/RmVyb2NhY3R1cy1n/bGF1Y2VzY2Vucy1D/b3N0YS1GYXJtc18x/MDAweDEwMDAuanBn/P3Y9MTY4MDc5ODI3/Nw");
-    background-position: top;
+    /* background-image: url("cactus.png"); */
+    background-position: 50% 20%;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 16px 16px 16px 16px;
 }
-
 
 .design-tag{
     background-color: #e2c6ff;
     color: #883AE1;
     /* padding: 5px 15px; */
-    margin: 15px;
+    margin: 16px;
     width: 62px;
     border-radius: 30px;
     display: flex;
@@ -51,26 +51,27 @@
 .design-tag p{
     color: #883AE1;
     font-size: 10px;
-    padding: 5px 18px;
+    padding: 6px;
 } 
 
 .info{
     margin: 15px 0 10px 0;
     height: 40%;
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid #E5EAF0;
 }
 
 .info h3{
     padding-left: 15px;
     font-size: 18px;
     color: #20293A;
+    margin-bottom: 6px;
 }
 
 .info .small-txt{
     padding-left: 15px;
     padding-right: 24px;
     text-align: left;
-    margin-top: 12px;
+    margin-bottom: 20px;
     font-size: 14px;
     color: #6C727F;
 }
@@ -78,7 +79,8 @@
 .name{
     font-size: 12px;
     margin-left: 15px;
-    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     color: #6C727F;
     display: flex;
     align-items: center;
