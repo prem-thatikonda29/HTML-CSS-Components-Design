@@ -30,7 +30,7 @@
     margin: 15px;
     height: 152px;
     border-radius: 20px;
-    /* background-image: url("cactus.png"); */
+    background-image: url("cactus.png");
     background-position: 50% 20%;
     background-repeat: no-repeat;
     background-size: cover;
