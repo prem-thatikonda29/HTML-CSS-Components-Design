@@ -103,6 +103,12 @@
     .card {
       background-color: #2e3a4f;
       color: #FAFAF9;
+      box-shadow: 4px 4px 15px #edede978;
+    }
+
+    .image{
+        background-image: url("cactus-dark.png");
+        background-position: 10% 40%;
     }
 
     .info h3{
