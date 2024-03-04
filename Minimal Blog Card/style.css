@@ -21,7 +21,7 @@
     width: 368px;
     height: 400px;
     margin: 20px 35%;
-    box-shadow: 6px 10px 10px #E5EAF0;
+    box-shadow: 0 30px 100px 0 rgba(17, 23, 41, 0.05);
 }
 
 .image{
