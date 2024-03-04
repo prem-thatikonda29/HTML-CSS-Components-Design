@@ -6,6 +6,13 @@
     box-sizing: border-box;
   }
   
+  :root {
+    --background-light: #FAFAF9;
+    --background-dark: #20293A;
+    --text-light: #20293A;
+    --text-dark: #FAFAF9;
+  }
+
   body{
     background-color: #FAFAF9;
     display: flex;
@@ -84,4 +91,29 @@
     color: #6C727F;
     display: flex;
     align-items: center;
+}
+
+/*----------------Dark Mode----------------- */
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: var(--background-dark);
+      color: var(--text-dark);
+    }
+  
+    .card {
+      background-color: #2e3a4f;
+      color: #FAFAF9;
+    }
+
+    .info h3{
+        color:#FAFAF9;
+    }
+
+    .design-tag{
+        background-color: var(--background-dark);
+    }
+
+    .design-tag p{
+        color:#FAFAF9;
+    }
 }
