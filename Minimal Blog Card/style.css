@@ -93,7 +93,7 @@
     align-items: center;
 }
 
-/*----------------Dark Mode----------------- */
+/*----------------------Dark Mode------------------------*/
 @media (prefers-color-scheme: dark) {
     body {
       background-color: var(--background-dark);
